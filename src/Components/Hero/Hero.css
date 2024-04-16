@@ -1,0 +1,85 @@
+.hero{
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+}
+
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.hero-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.hero-left p{
+    color: #171717;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-hand-icon img{
+    width: 105px;
+
+}
+
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #dc2626;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 3px 1px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+    outline: none;
+    cursor: pointer;
+}
+
+.hero-latest-btn:hover{
+    background-color: rgba(220, 38, 38, 0.8);
+}
+
+.hero-latest-btn:focus-visible{
+    outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.hero-latest-btn:focus-visible:focus {
+    outline-width: 2px;
+  }
+
+.hero-latest-btn:focus-visible:focus {
+    outline-color: #dc2626;
+  }
+
+.hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right img {
+    height: 700px;
+}
